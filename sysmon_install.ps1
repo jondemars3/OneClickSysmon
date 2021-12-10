@@ -27,5 +27,3 @@ Remove-Item "C:\Sysmon\sysmonconfig\sysmon-config-master"
 #start Sysmon
 Set-Location -LiteralPath $config_unzipped -PassThru
 ..\sysmon64.exe -accepteula -i sysmonconfig-export.xml
-
-Read-Host -Prompt "Press Enter to exit"
